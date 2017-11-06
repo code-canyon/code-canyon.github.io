@@ -1,4 +1,6 @@
-/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
 
 html {
     color: #222;
@@ -70,18 +72,18 @@ body {
    =================== */
 
 .header-container {
-    border-bottom: 20px solid #e44d26;
+    border-bottom: 20px solid #1A5276;
 }
 
 .footer-container,
 .main aside {
-    border-top: 20px solid #e44d26;
+    border-top: 20px solid #1A5276;
 }
 
 .header-container,
 .footer-container,
 .main aside {
-    background: #f16529;
+    background: #1A5276;
 }
 
 .title {
@@ -108,7 +110,7 @@ nav a {
     font-weight: bold;
 
     color: white;
-    background: #e44d26;
+    background: #1A5276;
 }
 
 nav a:hover,
@@ -141,32 +143,6 @@ nav a:hover {
     color: white;
     padding: 20px 0;
 }
-
-/* ===============
-    ALL: IE Fixes
-   =============== */
-
-.ie7 .title {
-    padding-top: 20px;
-}
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ==========================================================================
    Media Queries
