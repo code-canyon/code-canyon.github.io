@@ -145,6 +145,10 @@ header.masthead {
     margin-bottom: 30px; }
   header.masthead h1 {
     font-size: 2rem; }
+  header.masthead #mc_embed_signup .button {
+    background-color: #f05f40; }
+  header.masthead #mc_embed_signup .button:hover {
+    background-color: #f27358; }
   header.masthead p {
     font-weight: 300; }
   @media (min-width: 768px) {
@@ -162,8 +166,14 @@ header.masthead {
     header.masthead h1 {
       font-size: 4rem; } }
 
-.feature-box {
+#features .feature-box {
   max-width: 400px; }
+
+#posts #one-to-many {
+  background-color: blue; }
+
+#posts #one-to-one {
+  background-color: green; }
 
 .text-primary {
   color: #F05F40 !important; }

@@ -12,6 +12,12 @@ header.masthead {
   h1 {
     font-size: 2rem;
   }
+  #mc_embed_signup .button {
+     background-color: #f05f40;
+   }
+  #mc_embed_signup .button:hover {
+    background-color: lighten(#f05f40, 5%);
+  }
   p {
     font-weight: 300;
   }
