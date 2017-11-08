@@ -14,7 +14,7 @@ body {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #FF8C00; }
+  border-color: #000; }
 
 hr.light {
   border-color: #fff; }
@@ -49,24 +49,6 @@ section {
 
 .section-heading {
   margin-top: 0; }
-
-::-moz-selection {
-  color: #fff;
-  background: #212529;
-  text-shadow: none; }
-
-::selection {
-  color: #fff;
-  background: #212529;
-  text-shadow: none; }
-
-img::selection {
-  color: #fff;
-  background: transparent; }
-
-img::-moz-selection {
-  color: #fff;
-  background: transparent; }
 
 body {
   -webkit-tap-highlight-color: #212529; }
@@ -169,11 +151,24 @@ header.masthead {
 #features .feature-box {
   max-width: 400px; }
 
-#posts #one-to-many {
-  background-color: blue; }
-
-#posts #one-to-one {
-  background-color: green; }
+#posts {
+  padding: 0; }
+  #posts .container {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0; }
+  #posts .row {
+    margin: 0;
+    width: 100vw; }
+  #posts .post-icon {
+    width: 30%; }
+  #posts #one-to-many {
+    background-color: #2a5d78;
+    padding: 5rem 15px; }
+  #posts #one-to-one {
+    background-color: #FF8C00;
+    padding: 5rem 15px; }
 
 .text-primary {
   color: #FF8C00 !important; }

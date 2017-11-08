@@ -1,10 +1,25 @@
 // Styling for the posts section
 #posts {
-  #one-to-many {
-    background-color: blue;
+  padding: 0;
+  .container {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
-
+  .row {
+    margin: 0;
+    width: 100vw;
+  }
+  .post-icon {
+    width: 30%;
+  }
+  #one-to-many {
+    background-color: #2a5d78;
+    padding: 5rem 15px;
+  }
   #one-to-one {
-    background-color: green;
+    background-color: $primary;
+    padding: 5rem 15px;
   }
 }
