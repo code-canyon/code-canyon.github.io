@@ -13,10 +13,10 @@ header.masthead {
     font-size: 2rem;
   }
   #mc_embed_signup .button {
-     background-color: #f05f40;
+     background-color: $primary;
    }
   #mc_embed_signup .button:hover {
-    background-color: lighten(#f05f40, 5%);
+    background-color: darken($primary, 5%);
   }
   p {
     font-weight: 300;
