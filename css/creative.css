@@ -170,6 +170,13 @@ header.masthead {
     background-color: #FF8C00;
     padding: 5rem; }
 
+.q-a {
+  margin-bottom: 20px; }
+
+.question {
+  font-weight: bold;
+  font-size: 18px; }
+
 .text-primary {
   color: #FF8C00 !important; }
 
